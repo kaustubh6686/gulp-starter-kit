@@ -7,7 +7,7 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 module.exports = merge(baseConfig, {
   mode: 'production',
   output: {
-    publicPath: '/templates/childinfi-school/build/js/', 
+    publicPath: '/js/', 
   },
   optimization: {
     minimizer: [new UglifyJsPlugin({

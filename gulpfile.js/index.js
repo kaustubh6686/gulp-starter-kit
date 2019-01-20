@@ -45,7 +45,8 @@ function reloadBrowser(cb) {
 function serveTask(cb) {
   browserSync.init({
     proxy: {
-      target: "sandbox.local",
+      target: app.server.host,
+      target: app.server.port,
     },
     port: 9000,
     open: false,

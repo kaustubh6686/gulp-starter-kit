@@ -23,5 +23,10 @@ config.css = {
   build: '',
 };
 
+server = {
+  host: 'http://sandbox.local',
+  port: 9002
+}
+
 
 module.exports.config = config;
